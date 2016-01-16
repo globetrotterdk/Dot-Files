@@ -1,8 +1,13 @@
+! URXVT GEOMETRY
+!------------------------------------------------
+
+URxvt*geometry:  64X22
+
 ! URXVT FONTS
 !------------------------------------------------
  
-URxvt*font: xft:Droid\ Sans\ Mono\ for\Powerline:size=10
-URxvt*boldFont: xft:Droid\ Sans\ Mono\ for\ Powerline:bold:size=10
+URxvt*font: xft:Ubuntu\ Sans\ Mono\ for\Powerline:bold:size=12
+URxvt*boldFont: xft:Ubuntu\ Sans\ Mono\ for\ Powerline:bold:size=12
 URxvt*letterSpace: -3
 URxvt*allow_bold: true
 
@@ -16,7 +21,7 @@ URxvt.scrollBar:                        false
 !URxvt*scrollstyle:                     plain
 URxvt*cursorBlink:                      true
 URxvt*cursorUnderline:          	true
-URxvt*cursorColor:                      #4e9a06
+URxvt*cursorColor:                      #F5F5F5
  
 ! URXVT TABS
 !------------------------------------------------
@@ -36,7 +41,7 @@ URxvt.iconFile:    /usr/share/icons/Peppermix/apps/scalable/terminal.svg
 ! URXVT COLORS
 !------------------------------------------------
  
-*background:                           [75]#111111
+*background:                           [75]#4D0101
 *foreground:                            #F5F5F5
 urxvt*depth: 32
 urxvt*shading: 50
