@@ -41,7 +41,7 @@ URxvt.iconFile:    /usr/share/icons/Peppermix/apps/scalable/terminal.svg
 ! URXVT COLORS
 !------------------------------------------------
  
-*background:                           [75]#4D0101
+*background:                           [75]#51403e
 *foreground:                            #F5F5F5
 urxvt*depth: 32
 urxvt*shading: 50
