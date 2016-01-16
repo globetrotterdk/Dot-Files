@@ -3,12 +3,14 @@
  
 URxvt*font: xft:Droid\ Sans\ Mono\ for\Powerline:size=10
 URxvt*boldFont: xft:Droid\ Sans\ Mono\ for\ Powerline:bold:size=10
-URxvt*letterSpace: 0
+URxvt*letterSpace: -3
 URxvt*allow_bold: true
 
 ! URXVT SCROLLBAR AND CURSOR STYLE
 !------------------------------------------------
- 
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer:                 true 
 URxvt*saveLines:                        300000
 URxvt.scrollBar:                        false
 !URxvt*scrollstyle:                     plain
@@ -27,7 +29,10 @@ URxvt.tabbedex.tab-bg:          0
 URxvt.tabbedex.title:           yes
 URxvt.tabbedex.new-button:  	no
 
- 
+! URXVT ICON
+!------------------------------------------------
+URxvt.iconFile:    /usr/share/icons/Peppermix/apps/scalable/terminal.svg
+  
 ! URXVT COLORS
 !------------------------------------------------
  
